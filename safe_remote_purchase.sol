@@ -137,7 +137,6 @@ contract Purchase {
     {
         
         emit ItemReceived();
-        state = State.Release;
 
         buyer.transfer(value);
         
